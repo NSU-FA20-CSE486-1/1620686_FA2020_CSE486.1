@@ -60,6 +60,12 @@
                 android:lineSpacingExtra="@dimen/line_spacing"
                 android:padding="@dimen/padding_regular"
                 android:text="@string/article_text" />
+
+            <Button
+                android:id="@+id/button_addcomment"
+                android:layout_width="147dp"
+                android:layout_height="wrap_content"
+                android:text="@string/button_add_comment" />
         </LinearLayout>
 
     </ScrollView>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LogInApp</string>
+    <string name="label_username">User name</string>
+    <string name="user_image">User image</string>
+    <string name="label_password">Password</string>
+    <string name="button_login">Login</string>
+    <string name="text_header">Welcome!</string>
+    <string name="toast_label_fail">"Failed login"</string>
+</resources>

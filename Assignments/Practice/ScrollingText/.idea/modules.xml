@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ScrollingText.iml" filepath="$PROJECT_DIR$/.idea/modules/ScrollingText.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ScrollingText.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ScrollingText.app.iml" />
     </modules>
   </component>
 </project>
