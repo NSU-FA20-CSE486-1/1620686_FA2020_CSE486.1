@@ -4,33 +4,42 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
+
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:id="@+id/article_heading"
-        android:background="@color/colorPrimary"
-        android:textColor="@android:color/white"
-        android:padding="@dimen/padding_regular"
-        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
-        android:textStyle="bold"
-        android:text="@string/article_heading"
-        />
-    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:padding="@dimen/padding_regular"
+        android:text="@string/article_heading"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <TextView
         android:id="@+id/article_subheading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_below="@id/article_heading"
         android:padding="@dimen/padding_regular"
-        android:textAppearance="@android:style/TextAppearance.DeviceDefault"
-        android:text="@string/article_subtitle"/>
-    <TextView
+        android:text="@string/article_subtitle"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault" />
+
+    <ScrollView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/article"
-        android:layout_below="@id/article_subheading"
-        android:lineSpacingExtra="@dimen/article_text"
-        android:padding="@dimen/padding_regular"
-        android:text="@string/article_text"
-        />
+        android:layout_below="@id/article_subheading">
+
+        <TextView
+            android:id="@+id/article"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="web"
+            android:lineSpacingExtra="@dimen/article_text"
+            android:padding="@dimen/padding_regular"
+            android:text="@string/article_text" />
+
+    </ScrollView>
+
 
 </RelativeLayout>
