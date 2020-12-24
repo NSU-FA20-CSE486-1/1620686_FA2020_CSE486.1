@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Encryption Text Messaging</string>
+    <string name="code">+880</string>
+    <string name="message1">Enter your phone number</string>
+    <string name="key">Key</string>
+    <string name="message2">Enter key</string>
+    <string name="message3">Enter your message here</string>
+    <string name="button_name">Encrypt</string>
+    <string name="message4">Encrypted</string>
+    <string name="send_button">Send</string>
+</resources>
