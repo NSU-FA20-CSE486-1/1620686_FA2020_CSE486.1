@@ -56,4 +56,11 @@
         android:layout_marginBottom="24dp"
         android:onClick="shareText"
         android:text="@string/button_share" />
+
+    <Button
+        android:id="@+id/take_picture_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="takePicture"
+        android:text="@string/button_take_picture" />
 </LinearLayout>
