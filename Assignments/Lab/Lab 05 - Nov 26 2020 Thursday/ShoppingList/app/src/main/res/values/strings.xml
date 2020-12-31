@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">ShoppingList</string>
+    <string name="add_button_text">Add Item</string>
+    <string name="button_one">Rice</string>
+    <string name="button_two">Cornflakes</string>
+    <string name="button_three">Juice</string>
+    <string name="button_four">Chips</string>
+    <string name="button_five">Chocolates</string>
+    <string name="button_six">Potatoes</string>
+    <string name="button_seven">Tomato</string>
+    <string name="button_eight">Water</string>
+    <string name="button_nine">Cucumber</string>
+    <string name="button_ten">Carrot</string>
+    <string name="button_eleven">Lettuce</string>
+    <string name="button_twelve">Cheese</string>
+    <string name="button_thirteen">Ketchup</string>
+    <string name="button_fourteen">Apple</string>
+    <string name="button_fifteen">Orange</string>
+    <string name="button_sixteen">Pomegranate</string>
+    <string name="editText">Enter shop name</string>
+    <string name="shop_loc">Show location</string>
+</resources>

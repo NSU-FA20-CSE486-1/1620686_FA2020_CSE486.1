@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/Textview1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:visibility="invisible"></TextView>
+
+    <TextView
+        android:id="@+id/Textview2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:visibility="invisible"></TextView>
+
+    <TextView
+        android:id="@+id/Textview3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:visibility="invisible"></TextView>
+
+    <TextView
+        android:id="@+id/Textview4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:visibility="invisible"></TextView>
+
+    <TextView
+        android:id="@+id/Textview5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:visibility="invisible"></TextView>
+
+    <TextView
+        android:id="@+id/Textview6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:visibility="invisible"></TextView>
+
+    <TextView
+        android:id="@+id/Textview7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:visibility="invisible"></TextView>
+
+    <TextView
+        android:id="@+id/Textview8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:visibility="invisible"></TextView>
+
+    <TextView
+        android:id="@+id/Textview9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:visibility="invisible"></TextView>
+
+    <TextView
+        android:id="@+id/Textview10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:visibility="invisible"></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <EditText
+            android:id="@+id/editText_uri"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:hint="@string/editText"
+            android:inputType="textUri"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/button_shop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:onClick="openLocation"
+            android:text="@string/shop_loc" />
+
+        <Button
+            android:id="@+id/add_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:onClick="addItem"
+            android:text="@string/add_button_text" />
+
+    </LinearLayout>
+
+</LinearLayout>
