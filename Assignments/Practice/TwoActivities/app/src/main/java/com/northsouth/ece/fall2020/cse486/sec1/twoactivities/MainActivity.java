@@ -11,7 +11,6 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    private static final String LOG_TAG = MainActivity.class.getSimpleName();
     public static final String EXTRA_MESSAGE =
             "com.northsouth.ece.fall2020.cse486.sec1.twoactivities.extra.MESSAGE";
     private EditText mMessageEditText;

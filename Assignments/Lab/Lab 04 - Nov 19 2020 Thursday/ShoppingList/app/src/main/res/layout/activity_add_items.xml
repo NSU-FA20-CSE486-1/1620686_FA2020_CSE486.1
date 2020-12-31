@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".AddItems">
+
+
+        <Button
+            android:id="@+id/item1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="addItem"
+            android:text="@string/button_one"
+            app:backgroundTint="#3F51B5" />
+
+        <Button
+            android:id="@+id/item2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="addItem"
+            android:text="@string/button_two"
+            app:backgroundTint="#3F51B5" />
+
+        <Button
+            android:id="@+id/item3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="addItem"
+            android:text="@string/button_three"
+            app:backgroundTint="#3F51B5" />
+
+        <Button
+            android:id="@+id/item4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="addItem"
+            android:text="@string/button_four"
+            app:backgroundTint="#3F51B5" />
+
+        <Button
+            android:id="@+id/item5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="addItem"
+            android:text="@string/button_five"
+            app:backgroundTint="#3F51B5" />
+
+        <Button
+            android:id="@+id/item6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="addItem"
+            android:text="@string/button_six"
+            app:backgroundTint="#3F51B5" />
+
+        <Button
+            android:id="@+id/item7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="addItem"
+            android:text="@string/button_seven"
+            app:backgroundTint="#3F51B5" />
+
+        <Button
+            android:id="@+id/item8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="addItem"
+            android:text="@string/button_eight"
+            app:backgroundTint="#3F51B5" />
+
+        <Button
+            android:id="@+id/item9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="addItem"
+            android:text="@string/button_nine"
+            app:backgroundTint="#3F51B5" />
+
+        <Button
+            android:id="@+id/item10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="addItem"
+            android:text="@string/button_ten"
+            app:backgroundTint="#3F51B5" />
+
+        <Button
+            android:id="@+id/item11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="addItem"
+            android:text="@string/button_eleven"
+            app:backgroundTint="#3F51B5" />
+
+        <Button
+            android:id="@+id/item12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="addItem"
+            android:text="@string/button_twelve"
+            app:backgroundTint="#3F51B5" />
+
+        <Button
+            android:id="@+id/item13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="addItem"
+            android:text="@string/button_thirteen"
+            app:backgroundTint="#3F51B5" />
+
+        <Button
+            android:id="@+id/item14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="addItem"
+            android:text="@string/button_fourteen"
+            app:backgroundTint="#3F51B5" />
+
+        <Button
+            android:id="@+id/item15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="addItem"
+            android:text="@string/button_fifteen"
+            app:backgroundTint="#3F51B5" />
+
+        <Button
+            android:id="@+id/item16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="addItem"
+            android:text="@string/button_sixteen"
+            app:backgroundTint="#3F51B5" />
+
+    </LinearLayout>
+
+</ScrollView>
