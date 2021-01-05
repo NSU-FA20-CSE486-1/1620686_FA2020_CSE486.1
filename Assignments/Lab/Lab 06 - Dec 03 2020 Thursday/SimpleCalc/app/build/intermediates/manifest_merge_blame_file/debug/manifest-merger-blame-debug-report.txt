@@ -21,36 +21,36 @@
 21
 22    <uses-sdk
 23        android:minSdkVersion="15"
-23-->E:\1620686_FA2020_CSE486.1\Assignments\Practice\SimpleCalc\app\src\main\AndroidManifest.xml
+23-->E:\1620686_FA2020_CSE486.1\Assignments\Lab\Lab 06 - Dec 03 2020 Thursday\SimpleCalc\app\src\main\AndroidManifest.xml
 24        android:targetSdkVersion="27" />
-24-->E:\1620686_FA2020_CSE486.1\Assignments\Practice\SimpleCalc\app\src\main\AndroidManifest.xml
+24-->E:\1620686_FA2020_CSE486.1\Assignments\Lab\Lab 06 - Dec 03 2020 Thursday\SimpleCalc\app\src\main\AndroidManifest.xml
 25
 26    <application
-26-->E:\1620686_FA2020_CSE486.1\Assignments\Practice\SimpleCalc\app\src\main\AndroidManifest.xml:20:5-32:19
+26-->E:\1620686_FA2020_CSE486.1\Assignments\Lab\Lab 06 - Dec 03 2020 Thursday\SimpleCalc\app\src\main\AndroidManifest.xml:20:5-32:19
 27        android:allowBackup="true"
-27-->E:\1620686_FA2020_CSE486.1\Assignments\Practice\SimpleCalc\app\src\main\AndroidManifest.xml:21:9-35
+27-->E:\1620686_FA2020_CSE486.1\Assignments\Lab\Lab 06 - Dec 03 2020 Thursday\SimpleCalc\app\src\main\AndroidManifest.xml:21:9-35
 28        android:debuggable="true"
 29        android:icon="@mipmap/ic_launcher"
-29-->E:\1620686_FA2020_CSE486.1\Assignments\Practice\SimpleCalc\app\src\main\AndroidManifest.xml:22:9-43
+29-->E:\1620686_FA2020_CSE486.1\Assignments\Lab\Lab 06 - Dec 03 2020 Thursday\SimpleCalc\app\src\main\AndroidManifest.xml:22:9-43
 30        android:label="@string/app_name"
-30-->E:\1620686_FA2020_CSE486.1\Assignments\Practice\SimpleCalc\app\src\main\AndroidManifest.xml:23:9-41
+30-->E:\1620686_FA2020_CSE486.1\Assignments\Lab\Lab 06 - Dec 03 2020 Thursday\SimpleCalc\app\src\main\AndroidManifest.xml:23:9-41
 31        android:supportsRtl="true"
-31-->E:\1620686_FA2020_CSE486.1\Assignments\Practice\SimpleCalc\app\src\main\AndroidManifest.xml:24:9-35
+31-->E:\1620686_FA2020_CSE486.1\Assignments\Lab\Lab 06 - Dec 03 2020 Thursday\SimpleCalc\app\src\main\AndroidManifest.xml:24:9-35
 32        android:testOnly="true"
 33        android:theme="@style/AppTheme" >
-33-->E:\1620686_FA2020_CSE486.1\Assignments\Practice\SimpleCalc\app\src\main\AndroidManifest.xml:25:9-40
+33-->E:\1620686_FA2020_CSE486.1\Assignments\Lab\Lab 06 - Dec 03 2020 Thursday\SimpleCalc\app\src\main\AndroidManifest.xml:25:9-40
 34        <activity android:name="com.example.android.SimpleCalc.MainActivity" >
-34-->E:\1620686_FA2020_CSE486.1\Assignments\Practice\SimpleCalc\app\src\main\AndroidManifest.xml:26:9-31:20
-34-->E:\1620686_FA2020_CSE486.1\Assignments\Practice\SimpleCalc\app\src\main\AndroidManifest.xml:26:19-77
+34-->E:\1620686_FA2020_CSE486.1\Assignments\Lab\Lab 06 - Dec 03 2020 Thursday\SimpleCalc\app\src\main\AndroidManifest.xml:26:9-31:20
+34-->E:\1620686_FA2020_CSE486.1\Assignments\Lab\Lab 06 - Dec 03 2020 Thursday\SimpleCalc\app\src\main\AndroidManifest.xml:26:19-77
 35            <intent-filter>
-35-->E:\1620686_FA2020_CSE486.1\Assignments\Practice\SimpleCalc\app\src\main\AndroidManifest.xml:27:13-30:29
+35-->E:\1620686_FA2020_CSE486.1\Assignments\Lab\Lab 06 - Dec 03 2020 Thursday\SimpleCalc\app\src\main\AndroidManifest.xml:27:13-30:29
 36                <action android:name="android.intent.action.MAIN" />
-36-->E:\1620686_FA2020_CSE486.1\Assignments\Practice\SimpleCalc\app\src\main\AndroidManifest.xml:28:17-69
-36-->E:\1620686_FA2020_CSE486.1\Assignments\Practice\SimpleCalc\app\src\main\AndroidManifest.xml:28:25-66
+36-->E:\1620686_FA2020_CSE486.1\Assignments\Lab\Lab 06 - Dec 03 2020 Thursday\SimpleCalc\app\src\main\AndroidManifest.xml:28:17-69
+36-->E:\1620686_FA2020_CSE486.1\Assignments\Lab\Lab 06 - Dec 03 2020 Thursday\SimpleCalc\app\src\main\AndroidManifest.xml:28:25-66
 37
 38                <category android:name="android.intent.category.LAUNCHER" />
-38-->E:\1620686_FA2020_CSE486.1\Assignments\Practice\SimpleCalc\app\src\main\AndroidManifest.xml:29:17-77
-38-->E:\1620686_FA2020_CSE486.1\Assignments\Practice\SimpleCalc\app\src\main\AndroidManifest.xml:29:27-74
+38-->E:\1620686_FA2020_CSE486.1\Assignments\Lab\Lab 06 - Dec 03 2020 Thursday\SimpleCalc\app\src\main\AndroidManifest.xml:29:17-77
+38-->E:\1620686_FA2020_CSE486.1\Assignments\Lab\Lab 06 - Dec 03 2020 Thursday\SimpleCalc\app\src\main\AndroidManifest.xml:29:27-74
 39            </intent-filter>
 40        </activity>
 41    </application>

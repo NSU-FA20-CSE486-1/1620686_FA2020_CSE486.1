@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\1620686_FA2020_CSE486.1\\Assignments\\Practice\\SimpleCalc\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+            "outputFile": "E:\\1620686_FA2020_CSE486.1\\Assignments\\Lab\\Lab 06 - Dec 03 2020 Thursday\\SimpleCalc\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
             "map": [
                 {
                     "source": "C:\\Users\\hp\\.gradle\\caches\\transforms-2\\files-2.1\\2fd1badfe235a86c9c4f24dc039376c6\\appcompat-v7-27.1.1\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
