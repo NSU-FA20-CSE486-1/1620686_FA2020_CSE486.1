@@ -18,6 +18,7 @@ package com.example.android.SimpleCalc;
 
 import android.test.suitebuilder.annotation.SmallTest;
 
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -25,6 +26,7 @@ import org.junit.runners.JUnit4;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.CoreMatchers.is;
+import static org.hamcrest.number.IsCloseTo.closeTo;
 import static org.junit.Assert.assertThat;
 
 /**
@@ -59,6 +61,53 @@ public class CalculatorTest {
         assertThat(resultAdd, is(equalTo(1d)));
     }
 
+    @Test
+    public void addTwoNumbersFloats() {
+        double resultAdd = mCalculator.add(1.111f, 1.111d);
+        assertThat(resultAdd, is(closeTo(2.222, 0.01)));
+    }
 
+    @Test
+    public void subTwoNumbers() {
+        double resultAdd = mCalculator.sub(2d, 1d);
+        assertThat(resultAdd, is(equalTo(1d)));
+    }
+
+    @Test
+    public void subWorksWithNegativeResults(){
+        double resultAdd = mCalculator.sub(-1d, 2d);
+        assertThat(resultAdd, is(equalTo(-3d)));
+    }
+
+    @Test
+    public void mulTwoNumbers(){
+        double resultAdd = mCalculator.mul(1d, 1d);
+        assertThat(resultAdd, is(equalTo(1d)));
+    }
+
+    @Test
+    public void mulTwoNumbersZero(){
+        double resultAdd = mCalculator.mul(0d, 1d);
+        assertThat(resultAdd, is(equalTo(0d)));
+    }
+
+    @Test
+    public void divTwoNumbers(){
+        double resultAdd = mCalculator.div(2d, 1d);
+        assertThat(resultAdd, is(equalTo(2d)));
+    }
+
+    @Test
+    public void divByZeroThrows(){
+        try
+        {
+            double resultAdd = mCalculator.div(2d, 0d);
+            Assert.fail("Should have thrown Arithmetic exception");
+        }
+        catch(IllegalArgumentException e)
+        {
+            Assert.fail(e.getMessage());
+        }
+    }
 
 }
